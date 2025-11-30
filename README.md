@@ -342,3 +342,29 @@ For issues and questions:
 - Policy manager with 5 policy types
 - Emergency module with freeze controls
 - Comprehensive test suite (>80% coverage)
+
+
+---
+
+## 🏁 Final Submission Summary
+
+**Project:** Multi-Signature Treasury System (Sui Move)  
+**Author:** Aman Verma — `amanverma856`  
+**Repository:** https://github.com/amanverma856/multisig-treasury
+
+**What to review**
+- `sources/` — Move modules (Treasury, Proposal, PolicyManager, EmergencyModule)  
+- `tests/` — Unit & integration test suite (mock tests included)  
+- `Walkthrough.md` — Design rationale and examples  
+- `demo.sh` — Example CLI commands (replace `<PACKAGE_ID>` with published package id)
+
+**Highlights**
+- Multi-sig governance with configurable thresholds  
+- Proposal batching (up to 50 tx), time-lock enforcement, policy validation  
+- Policy types: spending limits, whitelist, category, amount thresholds, time-lock formula  
+- Emergency freeze with super-majority and audit trail  
+- Comprehensive test suite and documentation
+
+**Notes**
+- This repository contains the full source and tests. Due to time constraints before submission, the project includes tests and instructions but has not been deployed to testnet. Deployment instructions are included in `Walkthrough.md`.
+
